@@ -141,13 +141,13 @@
       .logo { margin-bottom:10px; }
       .nav-right { width:100%; justify-content:center; gap:15px; }
       .services-dropdown { top:100px; }
-      .sa-responsive-columns { columns:2; }
+      .sa-responsive-columns { display: flex; flex-direction: column; gap: 8px; }
     }
     @media (max-width: 480px) {
       .hero { padding:110px 15px 70px; min-height:60vh; }
       .hero h1 { font-size:34px; }
       .hero p { font-size:18px; }
-      .sa-responsive-columns { columns:1; }
+      .sa-responsive-columns { display: flex; flex-direction: column; gap: 8px; }
     }
     section { padding:90px 0; }
     .alt { background:var(--gray); }
@@ -254,7 +254,7 @@
   </section>
   <section class="alt">
     <div class="container">
-      <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">We Repair All Whirlpool Appliances</h2>
+      <h2 style="text-align:center; font-size:36px; margin-bottom:50px;">Factory Certified Service</h2>
       <div class="services-grid">
         <div class="service">
           <i class="fas fa-tshirt"></i><h3>Whirlpool Washer Repair</h3>
